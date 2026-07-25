@@ -123,3 +123,4 @@ Open `http://localhost:3000` in your browser.
 
 ## 🔒 Security Policy
 All calls to ElevenLabs API are proxied securely through the Express backend (`server/src/services/elevenLabsService.ts`). API keys are **never** exposed to client-side JavaScript code.
+Updated on July 25, 2026
