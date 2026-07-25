@@ -16,7 +16,6 @@
     "@remotion/player": "4.0.499",
     "@remotion/renderer": "4.0.499",
     "@supabase/supabase-js": "^2.39.8",
-    "ai-video-content-studio-monorepo": "file:..",
     "clsx": "^2.1.0",
     "lucide-react": "^0.359.0",
     "react": "^18.2.0",
