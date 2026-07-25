@@ -1,0 +1,31 @@
+{
+  "name": "ai-video-content-studio-monorepo",
+  "version": "1.0.0",
+  "description": "Production-ready SaaS AI Video Content Studio platform",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "build": "npm run build:client && npm run build:server",
+    "remotion:preview": "npm run remotion:preview --prefix client",
+    "remotion:render": "npm run remotion:render --prefix client"
+  },
+  "keywords": [
+    "ai",
+    "video-generator",
+    "remotion",
+    "elevenlabs",
+    "supabase",
+    "react",
+    "typescript",
+    "express",
+    "saas"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.18.1"
+  }
+}
